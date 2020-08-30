@@ -1,0 +1,27 @@
+.fixed-box {
+  width: 80px;
+  height: 446px;
+  background-color: #fff;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 10px;
+  bottom: 50px ;
+}
+.fixed-box ul {
+  padding: 0px 5px;
+}
+.fixed-box ul li {
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e7e7e7;
+  cursor: pointer;
+}
+.fixed-box ul li span {
+  color: #333;
+  font-size: 30px;
+}
+.fixed-box ul li p {
+  color: #333;
+  font-size: 12px;
+}

@@ -121,6 +121,9 @@ a {
   height: 100%;
   margin-right: 32px;
 }
+.head-clearfix .clearfix-box .tab-list li:hover {
+  color: #9f8052;
+}
 .head-clearfix .clearfix-box .search {
   width: 280px;
   height: 32px;
