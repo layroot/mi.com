@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.head-top {
+  width: 100%;
+  background-color: #333;
+}
+.head-top .clearfix {
+  margin: 0px auto;
+  width: 1080px;
+  height: 48px;
+}
+.head-top .clearfix .fr {
+  float: right;
+}
+.head-top .clearfix .fr li {
+  float: left;
+  margin-right: 8px ;
+  text-align: center;
+}
+.head-top .clearfix .fr li:nth-child(1) a {
+  margin-left: 8px;
+}
+.head-top .clearfix .fr li a {
+  vertical-align: middle;
+  line-height: 48px;
+  color: #e7e7e7;
+}
+.head-top .clearfix .fr li a:hover {
+  color: #fff;
+}
+.head-top .clearfix .fr li .borde {
+  border-color: #666;
+  display: inline-block;
+  margin: 0px 3px 0 10px;
+  height: 16px;
+  vertical-align: middle;
+  border-right: 1px solid #666;
+}
+.head-top .clearfix .fr li:last-child {
+  position: relative;
+}
+.head-top .clearfix .fr li:last-child ul {
+  position: absolute;
+  width: 160px;
+  list-style: none;
+  display: none;
+  transition: 1s;
+  box-shadow: 0px 3px 15px 0px #333;
+}
+.head-top .clearfix .fr li:last-child li {
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+}
+.head-top .clearfix .fr li:last-child li:hover {
+  background-color: #e9ab00;
+}
+.head-top .clearfix .fr li:last-child:hover ul {
+  display: block;
+}
+.head-top .icon-shouji {
+  margin-top: -20px;
+  text-align: left;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.head-top .icon-ai-arrow-down {
+  height: 30px;
+  width: 30px;
+  font-size: 10px;
+  color: #e7e7e7;
+  vertical-align: middle;
+}
+.head-clearfix {
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  height: 51px;
+}
+.head-clearfix .clearfix-box {
+  width: 1080px;
+  height: 51px;
+  margin: 0 auto;
+}
+.head-clearfix .clearfix-box .ypimg {
+  width: 123px;
+  height: 51px;
+  background: url(../images/logo@2x.cf8cc6a8.png);
+  background-size: 100%;
+  float: left;
+}
+.head-clearfix .clearfix-box .nav-part {
+  width: 60px;
+  height: 51px;
+  margin: 0px 70px 0px 10px;
+  float: left;
+  display: block;
+}
+.head-clearfix .clearfix-box .tab-list {
+  width: 420px;
+  height: 51px;
+  float: left;
+}
+.head-clearfix .clearfix-box .tab-list li {
+  color: #666;
+  font-size: 18px;
+  float: left;
+  line-height: 51px;
+  height: 100%;
+  margin-right: 32px;
+}
+.head-clearfix .clearfix-box .search {
+  width: 280px;
+  height: 32px;
+  padding-top: 9px;
+  float: right;
+  border-bottom: 1px solid #e7e7e7;
+}
+.head-clearfix .clearfix-box .search .icon-fangdajing {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 6px;
+  float: left;
+}
+.head-clearfix .clearfix-box .search .search-input {
+  float: left;
+  width: 245px;
+  height: 32px;
+}
+.head-clearfix .clearfix-box .search .search-input input {
+  margin-left: 10px;
+  outline: none;
+  border: none;
+  margin-top: 7px;
+}
+.head-clearfix .clearfix-box .search .search-input input::-webkit-input-placeholder {
+  color: #BDCADA;
+}
+.head-clearfix .clearfix-box .icon-gouwuche {
+  float: right;
+  font-size: 20px;
+  line-height: 60px;
+  margin-left: 25px;
+}
