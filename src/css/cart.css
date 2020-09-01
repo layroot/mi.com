@@ -373,7 +373,10 @@ a {
   cursor: pointer;
 }
 .cart-box .shangpin .cart-item .name > p {
+  color: #333;
   font-size: 14px;
+}
+.cart-box .shangpin .cart-item .name > p:hover {
   color: #976d30;
 }
 .cart-box .shangpin .cart-item .price {
@@ -384,11 +387,10 @@ a {
   height: 72px;
   line-height: 72px;
   font-size: 14px;
-  color: #976d30;
+  color: #333;
 }
 .cart-box .shangpin .cart-item .price > span {
   font-size: 14px;
-  color: #976d30;
 }
 .cart-box .shangpin .cart-item .num {
   width: 205px;

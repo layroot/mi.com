@@ -42,3 +42,11 @@
 .foot-box > .cont > .text > p > a:hover {
   color: goldenrod;
 }
+.foot-box:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}

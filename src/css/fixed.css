@@ -1,6 +1,6 @@
 .fixed-box {
   width: 80px;
-  height: 446px;
+  height: 455px;
   background-color: #fff;
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -9,8 +9,10 @@
 }
 .fixed-box ul {
   padding: 0px 5px;
+  height: 100%;
 }
 .fixed-box ul li {
+  height: 70px;
   padding: 10px;
   font-size: 12px;
   text-align: center;
