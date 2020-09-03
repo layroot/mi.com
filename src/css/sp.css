@@ -157,6 +157,10 @@ a {
   line-height: 60px;
   margin-left: 25px;
 }
+#hide {
+  position: relative;
+  top: 0px;
+}
 .fixed-box {
   width: 80px;
   height: 455px;
@@ -676,4 +680,5 @@ a {
 #sp-box > .bot > .nav-title img {
   display: block;
   float: left;
+  width: 100%;
 }

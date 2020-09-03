@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jQuery": "^1.7.4",
-    "swiper": "^6.1.2"
+    "jQuery": "^1.7.4"
+  },
+  "devDependencies": {
+    "swiper": "^6.1.3"
   }
 }

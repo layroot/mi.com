@@ -1,5 +1,5 @@
 import $ from './lib/jquery.js'
-
+import { cookie } from './lib/cookie.js'
 
 (function() {
     let id = location.search.split('=')[1];
@@ -106,13 +106,13 @@ import $ from './lib/jquery.js'
                         <div class="minus-btn">
                             <a href="javascript:;" class="m-icons"></a>
                         </div>
-                        <input type="text" class="count-input" value="1">
+                        <input type="text" class="count-input" value="1" min="1" max="${response.num}">
                         <div class="j-btn">
                             <a href="javascript:;" class="m-icons"></a>
                         </div>
                     </div>
                     <div class="btn-line">
-                        <a href="javascript:;" class="ys">加入购物车</a>
+                        <a href="javascript:;" class="ys jr">加入购物车</a>
                         <a href="javascript:;" class="gm ys">立即购买</a>
                         <div class="favor-btn ">
                             <a href="javascript:;"></a>
@@ -138,7 +138,31 @@ import $ from './lib/jquery.js'
             </div>
         </div>
             `;
-            $("#sp-box").append(html);
+            $("#sp-box").append(html).find('.jr').on('click', function() {
+                addItem(response.id, response.price, $('.count-input').val());
+                console.log('cook')
+            });
         }
     });
+
+    function addItem(id, price, num) {
+        let shop = cookie.get('shop')
+        let prod = {
+            id: id,
+            price: price,
+            num: num
+        }
+        if (shop) {
+            shop = JSON.parse(shop);
+            if (shop.some(elm => elm.id == id)) {
+                shop.forEach(elm => elm.id == id ? elm.num = num : null)
+            } else {
+                shop.push(prod)
+            }
+        } else {
+            shop = [];
+            shop.push(prod)
+        }
+        cookie.set('shop', JSON.stringify(shop), 1)
+    }
 })();

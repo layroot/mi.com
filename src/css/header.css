@@ -151,14 +151,13 @@ a {
 .head-clearfix .clearfix-box .search .search-input input::-webkit-input-placeholder {
   color: #BDCADA;
 }
-.head-clearfix .clearfix-box .hide {
-  display: none;
-  position: relative;
-  top: 0px;
-}
 .head-clearfix .clearfix-box .icon-gouwuche {
   float: right;
   font-size: 20px;
   line-height: 60px;
   margin-left: 25px;
+}
+#hide {
+  position: relative;
+  top: 0px;
 }

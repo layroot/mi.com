@@ -1,6 +1,6 @@
 import $ from './lib/jquery.js'
 import { mySwiper } from './lib/lbt.js';
-
+import { mySwiper2 } from './lib/lbt.js';
 // 导入jQuery插件时无需指定名称 不需要调用
 // 在改写时 需要在插件中引入jQuery作为模块
 import './lib/jquery-tabs.js';

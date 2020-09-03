@@ -84,7 +84,6 @@ a {
   vertical-align: middle;
 }
 .head-clearfix {
-  display: none;
   width: 100%;
   padding-top: 20px;
   margin-bottom: 5px;
@@ -157,6 +156,10 @@ a {
   font-size: 20px;
   line-height: 60px;
   margin-left: 25px;
+}
+#hide {
+  position: relative;
+  top: 0px;
 }
 .fixed-box {
   width: 80px;
@@ -239,6 +242,10 @@ a {
   overflow: hidden;
   visibility: hidden;
 }
+.swiper-container2 {
+  width: 1080px;
+  margin: 0 auto;
+}
 .banner-nav {
   width: 1080px;
   height: 358px;
@@ -283,6 +290,7 @@ a {
   float: left;
   vertical-align: middle;
   margin-top: -4px;
+  margin: 0 auto;
 }
 .container-p {
   margin: 0 auto;

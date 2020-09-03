@@ -1,4 +1,5 @@
 .fixed-box {
+  z-index: 10;
   width: 80px;
   height: 455px;
   background-color: #fff;
